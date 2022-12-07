@@ -2,18 +2,18 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "pattern_m",
+      "name": "rives",
       "request": "launch",
       "type": "dart"
     },
     {
-      "name": "pattern_m (profile mode)",
+      "name": "rives_p",
       "request": "launch",
       "type": "dart",
       "flutterMode": "profile"
     },
     {
-      "name": "pattern_m (release mode)",
+      "name": "rives_r",
       "request": "launch",
       "type": "dart",
       "flutterMode": "release"
