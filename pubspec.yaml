@@ -1,4 +1,4 @@
-name: pattern_m
+name: rives
 description: A new Flutter project.
 
 publish_to: "none"
@@ -20,6 +20,7 @@ dependencies:
   logger: ^1.1.0
   path: ^1.8.2
   path_provider: ^2.0.11
+  rive: ^0.9.1
   riverpod_annotation: ^1.0.6
 
 dev_dependencies:
