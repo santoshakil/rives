@@ -10,6 +10,7 @@ class HomeView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(centerTitle: false, title: const Text('Rives')),
       body: CustomScrollView(
+        physics: const BouncingScrollPhysics(),
         slivers: [
           SliverList(
             delegate: SliverChildListDelegate(
@@ -26,6 +27,7 @@ class HomeView extends StatelessWidget {
               ],
             ),
           ),
+          const SliverToBoxAdapter(child: SizedBox(height: 100)),
         ],
       ),
     );
